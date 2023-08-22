@@ -11,6 +11,7 @@ subscription_id = 'd0f7cb58-5c08-4ead-ac4c-29752d3ba0e1'
 resource_group = 'mlops-aug-batch'
 workspace_name = 'intellipat-mlops'
 
+
 workspace = Workspace(subscription_id, resource_group, workspace_name)
 
 dataset = Dataset.get_by_name(workspace, name='Iris')
